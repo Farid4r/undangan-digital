@@ -5,16 +5,18 @@ import { motion } from "framer-motion";
 export default function Gallery() {
   // Menggunakan gambar placeholder dari Unsplash yang romantis dan estetik
   const images = [
-    "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=600",
-    "https://images.unsplash.com/photo-1519225495810-7512c696505a?q=80&w=600",
-    "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=600",
-    "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?q=80&w=600",
+    "/images/image1.webp",
+    "/images/image2.webp",
+    "/images/image3.webp",
+    "/images/image4.webp",
+    "/images/image5.webp",
+    "/images/image6.webp",
   ];
 
   return (
-    <section className="py-12 px-4 border-b border-slate-100">
+    <section className="relative py-16 px-4 overflow-hidden">
       <div className="text-center mb-8">
-        <h2 className="font-[family:var(--font-playfair)] text-2xl text-slate-800">
+        <h2 className="font-(--font-playfair) text-2xl text-slate-100">
           Galeri Bahagia
         </h2>
         <p className="text-xs text-slate-400 uppercase tracking-widest mt-1">
@@ -31,7 +33,7 @@ export default function Gallery() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="relative aspect-[3/4] overflow-hidden rounded-xl shadow-sm bg-slate-100"
+            className="relative aspect-3/4 overflow-hidden rounded-xl shadow-sm bg-slate-100"
           >
             <img
               src={src}

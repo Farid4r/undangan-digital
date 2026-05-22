@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 export default function Countdown() {
-  // Target waktu acara (Silakan sesuaikan tanggalnya, contoh: 31 Desember 2026)
   const targetDate = new Date("2026-12-31T09:00:00").getTime();
 
   const [timeLeft, setTimeLeft] = useState({
@@ -42,8 +41,8 @@ export default function Countdown() {
   ];
 
   return (
-    <section className="py-10 bg-amber-50/50 rounded-2xl my-6 mx-4 p-6 border border-amber-100">
-      <p className="text-xs uppercase tracking-widest text-slate-500 text-center mb-4">
+    <section className="py-10 bg-blue-slate/10 rounded-2xl my-6 mx-4 p-6 border border-blue-slate/20">
+      <p className="text-xs uppercase tracking-widest text-silver text-center mb-4">
         Menuju Hari Bahagia
       </p>
       <div className="grid grid-cols-4 gap-2 max-w-sm mx-auto">
@@ -54,15 +53,15 @@ export default function Countdown() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ delay: index * 0.1, duration: 0.4 }}
-            className="flex flex-col items-center bg-white p-3 rounded-xl shadow-sm border border-slate-100"
+            className="flex flex-col items-center bg-blue-slate/30 p-3 rounded-xl shadow-sm border border-blue-slate/40"
           >
             <span
-              className="text-2xl font-bold text-amber-600"
+              className="text-2xl font-bold text-white"
               style={{ fontFamily: "var(--font-inter)" }}
             >
               {String(block.value).padStart(2, "0")}
             </span>
-            <span className="text-[10px] uppercase tracking-wider text-slate-400 mt-1">
+            <span className="text-[10px] uppercase tracking-wider text-silver mt-1">
               {block.label}
             </span>
           </motion.div>
