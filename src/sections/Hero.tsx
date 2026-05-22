@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   // Placeholder foto Prewedding estetik
-  const heroBg = "/images/image7.webp"; 
+  const heroBg = "/images/image3.webp"; 
 
   return (
     <section className="relative min-h-dvh flex flex-col items-center justify-center border-b border-blue-slate/20 overflow-hidden">
