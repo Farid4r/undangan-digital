@@ -11,6 +11,7 @@ import Gallery from "../sections/Gallery";
 import StoryTimeline from "../sections/StoryTimeLine";
 import Comments from "../sections/Comments";
 import DigitalGift from "../sections/DigitalGift";
+import BrideGroom from "../sections/BrideGroom";
 
 export default function InvitationMain() {
   const searchParams = useSearchParams();
@@ -83,6 +84,8 @@ export default function InvitationMain() {
       
       {/* 1. Hero Section */}
       <Hero />
+
+      <BrideGroom />
 
       {/* 2. Countdown Section */}
       <Countdown />

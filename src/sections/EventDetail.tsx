@@ -47,10 +47,10 @@ export default function EventDetail() {
           <p className="text-sm font-bold text-white tracking-wide">Kamis, 31 Desember 2026</p>
           <p className="text-xs text-silver mt-1">Pukul 11:00 WIB - Selesai</p>
           <p className="text-sm text-white mt-5 font-semibold">
-            Gedung Serbaguna Bahagia
+            Gedung Serbaguna Darel azhar
           </p>
           <p className="text-xs text-silver/80 max-w-xs mx-auto mt-1 font-light leading-relaxed">
-            Jl. Kemerdekaan No. 45, Pusat Kota
+            Jl. Komplek Pendidikan No. 45, Muara Ciujung Timur
           </p>
         </motion.div>
 

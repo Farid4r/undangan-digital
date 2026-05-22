@@ -9,17 +9,17 @@ export default function StoryTimeline() {
   const stories = [
     {
       title: "Awal Bertemu",
-      date: "Maret 2023",
-      description: "Pertama kali dipertemukan dalam sebuah proyek kerja kelompok di kampus.",
+      date: "Maret 2017",
+      description: "Pertama kali dipertemukan dalam sebuah proyek kerja kelompok di sekolah.",
     },
     {
       title: "Komitmen Bersama",
-      date: "Januari 2024",
-      description: "Setelah saling mengenal, kami memutuskan untuk berkomitmen melangkah ke arah yang lebih serius.",
+      date: "Januari 2025",
+      description: "Setelah saling mengenal, kami memutuskan untuk berkomitmen melangkah ke arah yang lebih serius anjay.",
     },
     {
       title: "Lamaran",
-      date: "Agustus 2025",
+      date: "November 2025",
       description: "Pertemuan keluarga besar untuk mengikat janji suci sebelum melangkah ke jenjang pernikahan.",
     },
   ];
@@ -64,7 +64,7 @@ export default function StoryTimeline() {
               <span className="absolute -left-7.75 top-1.5 bg-coral-glow w-4 h-4 rounded-full border-4 border-jet-black shadow-md" />
 
               {/* Konten Badge Tanggal */}
-              <span className="text-[10px] uppercase font-bold tracking-wider text-coral-glow bg-blue-slate/30 border border-blue-slate/40 px-2.5 py-1 rounded-md">
+              <span className="text-[10px] uppercase font-bold tracking-wider text-silver bg-blue-slate/30 border border-blue-slate/40 px-2.5 py-1 rounded-md">
                 {story.date}
               </span>
               
