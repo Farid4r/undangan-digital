@@ -71,8 +71,8 @@ export default function BrideGroom() {
         <ProfileCard
           image="/images/nanat.jpg"
           nickName="Natasya"
-          fullName="Natasya Zahra Nurdin"
-          description="Putri Pertama dari pasangan (Alm) Bapak Nurdim dan Ibu ...."
+          fullName="Natashya Zahra"
+          description="Putri kedua dari pasangan Bapak Nurdin dan Ibu"
           isReverse
         />
       </div>

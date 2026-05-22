@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function EventDetail() {
   // Ganti link ini dengan koordinat Google Maps lokasi acaramu (Format Embed)
-  const googleMapsEmbedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7930.706506253011!2d106.2610250307556!3d-6.348285451891147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4210c700000001%3A0xfe74f23477a2202a!2sHotel%20Kharisma%20Rangkasbitung!5e0!3m2!1sid!2sid!4v1779439979046!5m2!1sid!2sid";
+  const googleMapsEmbedUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d589.4424583541415!2d106.25857814591754!3d-6.357739983164567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e4211c75347d6c7%3A0x5a6a234c6b8bfed4!2sMultimedia%20Darel%20Azhar!5e0!3m2!1sid!2sid!4v1779451046750!5m2!1sid!2sid";
 
   const eventBg = "images/image6.webp";
 

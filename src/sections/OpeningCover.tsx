@@ -37,7 +37,7 @@ export default function OpeningCover({ guestName, onOpen }: OpeningCoverProps) {
           The Wedding Of
         </p>
         <h2 className="text-4xl md:text-5xl font-(--font-playfair) mt-4 text-wh tracking-wide">
-          Rifqi Subakti & Natasya Zahra 
+          Rifqi Subakti & Natashya Zahra 
         </h2>
       </motion.div>
 
