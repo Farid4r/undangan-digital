@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   // Placeholder foto Prewedding estetik
-  const heroBg = "/images/image7.jpg"; 
+  const heroBg = "/images/image3.webp"; 
 
   return (
     <section className="relative min-h-dvh flex flex-col items-center justify-center border-b border-blue-slate/20 overflow-hidden">
@@ -32,7 +32,7 @@ export default function Hero() {
           Walimatul 'Ursy
         </p>
         
-        <h1 className="text-5xl font-(--font-playfair) text-white my-2 leading-tight">
+        <h1 className="text-6xl font-wedding text-white my-2 leading-tight">
           Rifqi & Natashya
         </h1>
         

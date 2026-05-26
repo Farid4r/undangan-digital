@@ -58,7 +58,7 @@ export default function Comments() {
   return (
     <section className="py-12 px-6 border-b border-blue-slate/20 bg-transparent">
       <div className="text-center mb-8">
-        <h2 className="font-(--font-playfair) text-2xl text-white">
+        <h2 className="font-wedding text-4xl text-white">
           Ucapan & Doa
         </h2>
         <p className="text-xs text-silver uppercase tracking-widest mt-1">

@@ -1,32 +1,29 @@
-import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Cormorant_Garamond, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ 
+// 1. Konfigurasi Font Judul (Serif)
+const weddingFont = Cormorant_Garamond({
   subsets: ["latin"],
-  variable: "--font-inter", 
+  weight: ["400", "600", "700"],
+  variable: "--font-wedding", // Mengubahnya menjadi CSS Variable
 });
 
-const playfair = Playfair_Display({ 
+// 2. Konfigurasi Font Teks Isi (Sans-Serif)
+const bodyFont = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  variable: "--font-playfair",
+  weight: ["300", "400", "500", "700"],
+  variable: "--font-body", // Mengubahnya menjadi CSS Variable
 });
-
-export const metadata: Metadata = {
-  title: "Undangan Digital",
-  description: "Undangan pernikahan digital eksklusif",
-};
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="id" className={`${inter.variable} ${playfair.variable}`}>
-      <body className="font-sans antialiased">
-        {children}
-      </body>
+    // 3. Pasang variabel font di tag HTML agar bisa dibaca di seluruh halaman
+    <html lang="id" className={`${weddingFont.variable} ${bodyFont.variable}`}>
+      <body>{children}</body>
     </html>
   );
 }

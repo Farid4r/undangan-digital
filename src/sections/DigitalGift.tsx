@@ -97,7 +97,7 @@ export default function DigitalGift() {
         viewport={{ once: true }}
         className="mb-10 max-w-md mx-auto"
       >
-        <h2 className="font-(--font-playfair) text-3xl text-white mb-2">
+        <h2 className="font-wedding text-4xl text-white mb-2">
           Digital Gift
         </h2>
         <p className="text-xs text-silver leading-relaxed max-w-xs mx-auto">

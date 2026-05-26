@@ -13,7 +13,7 @@ export default function Gallery() {
   return (
     <section className="relative py-16 px-4 overflow-hidden">
       <div className="text-center mb-10">
-        <h2 className="font-(--font-playfair) text-2xl text-white">
+        <h2 className="font-wedding text-4xl text-white">
           Galeri Bahagia
         </h2>
         <p className="text-xs text-silver uppercase tracking-widest mt-1">
@@ -22,7 +22,7 @@ export default function Gallery() {
       </div>
 
       {/* Grid Layout 1 Kolon Penuh dengan Gap yang Lega */}
-      <div className="grid grid-cols-1 gap-6 max-w-sm mx-auto">
+      <div className="grid grid-cols-3 gap-6 max-w-sm mx-auto">
         {images.map((src, index) => (
           <motion.div
             key={index}

@@ -41,7 +41,7 @@ export default function StoryTimeline() {
       {/* 3. Konten Utama (z-index tinggi) */}
       <div className="relative z-20 max-w-sm mx-auto">
         <div className="text-center mb-12">
-          <h2 className="font-(--font-playfair) text-3xl text-white">
+          <h2 className="font-wedding text-4xl text-white">
             Kisah Kami
           </h2>
           <p className="text-xs text-silver uppercase tracking-widest mt-1">

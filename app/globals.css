@@ -1,31 +1,19 @@
 @import "tailwindcss";
 
 @theme {
-  /* Mendaftarkan palet warna baru sesuai pilihanmu */
+  /* Palet warna kustom kamu yang sebelumnya */
   --color-jet-black: #2d3142;
   --color-silver: #bfc0c0;
   --color-white: #ffffff;
-  --color-coral-glow: #677097;
+  --color-coral-glow: #d4d4d4;
   --color-blue-slate: #4f5d75;
-}
 
-html {
-  scroll-behavior: smooth;
+  /* JALUR BARU: Mendaftarkan short-class font kustom */
+  --font-wedding: var(--font-wedding);
+  --font-body: var(--font-body);
 }
 
 body {
-  /* Mengubah background dasar aplikasi menjadi Jet Black dan teks utama menjadi Putih */
-  @apply bg-jet-black text-white antialiased;
-}
-
-/* Kustomisasi scrollbar tipis agar senada dengan tema dark */
-::-webkit-scrollbar {
-  width: 6px;
-}
-::-webkit-scrollbar-track {
-  background: #2d3142;
-}
-::-webkit-scrollbar-thumb {
-  background: #4f5d75;
-  border-radius: 10px;
+  /* Otomatis menerapkan font tubuh ke seluruh aplikasi */
+  @apply bg-jet-black text-white font-body antialiased;
 }
